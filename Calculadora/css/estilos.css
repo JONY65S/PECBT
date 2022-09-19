@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+
+.code {
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.ts {
+	padding: 0px 18px 18px 18px;
+}
+
+.ts button {
+	width: 100%;
+	background-color: #48c;
+	color: #fff;
+	border: none;
+	font-size: 50px;
+	padding: 0px;
+}
+
+.keys {
+    display: flex;
+}
+
+.screen {
+    padding: 18px 18px 0px 18px;
+}
+
+.numbers {
+    padding: 18px 9px 18px 18px;
+}
+
+.processes {
+    padding: 18px 18px 18px 9px;
+}
+
+#success{
+    background-color: #555;
+    color: #eee;
+    padding: 6px;
+	font-family: monospace;
+	font-size: 20px
+}
+
+.processes button {
+    display: block;
+    width: 54px;
+    height: 54px; 
+    padding: 9px 15px;
+    background-color: rgba(30,60,160,0.3);
+	color: #fff;
+    border: none;
+}
+
+.numbers div{
+    text-align: center;
+}
+
+.numbers button {
+    border: 0px;
+    background-color: #fff;
+    transition: all 0.09s;
+}
+
+.numbers button:hover {
+    box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+    margin: 2px 0px;
+    padding: 15px 24px;
+    font-size: 19px;
+}

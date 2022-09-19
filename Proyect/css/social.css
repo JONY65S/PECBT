@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+}
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size:1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icond {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s; 
+}
+
+.icon-facebook2 {
+    background: #2e406e;
+}
+
+.icon-twitter {
+    background: #339dc5;
+}
+
+.icon-spotify {
+    background: #1DB954;
+}
+
+.icon-instagram {
+    background: #FCAF45;
+}
+
+.icond:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icond:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icond:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
